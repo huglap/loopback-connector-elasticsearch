@@ -1,0 +1,49 @@
+{
+  "_from": "github:huglap/loopback-connector-elasticsearch#master",
+  "_id": "loopback-connector-elasticsearch@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/loopback-connector-elasticsearch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "huglap/loopback-connector-elasticsearch#master",
+    "rawSpec": "huglap/loopback-connector-elasticsearch#master",
+    "saveSpec": "github:huglap/loopback-connector-elasticsearch#master",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:huglap/loopback-connector-elasticsearch#e513d71462359d8e234f6456ad87baa5c03b455b",
+  "_spec": "huglap/loopback-connector-elasticsearch#master",
+  "_where": "/app",
+  "author": {
+    "name": "Hugo Lapierre"
+  },
+  "bugs": {
+    "url": "https://github.com/huglap/loopback-connector-elasticsearch/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.0.0-rc.2",
+    "debug": "^4.1.1",
+    "loopback-connector": "^4.6.2"
+  },
+  "deprecated": false,
+  "description": "A loopback.io 3.x connector for elasticsearch",
+  "homepage": "https://github.com/huglap/loopback-connector-elasticsearch#readme",
+  "license": "ISC",
+  "main": "./lib/Connector.js",
+  "name": "loopback-connector-elasticsearch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huglap/loopback-connector-elasticsearch.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
