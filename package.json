@@ -30,7 +30,8 @@
   "dependencies": {
     "@elastic/elasticsearch": "^7.0.0-rc.2",
     "debug": "^4.1.1",
-    "loopback-connector": "^4.6.2"
+    "loopback-connector": "^4.6.2",
+    "rxjs": "^6.5.1"
   },
   "deprecated": false,
   "description": "A loopback.io 3.x connector for elasticsearch",

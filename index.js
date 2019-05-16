@@ -1,1 +1,1 @@
-module.exports = require('./lib/Connector');
+const Connector = require('./lib/Connector');
